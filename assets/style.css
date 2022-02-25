@@ -1,3 +1,25 @@
 * {
-  font-size: 46;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+header {
+  display: flexbox;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1 0 100%;
+}
+nav {
+  display: flexbox;
+  flex-direction: column;
+  flex: 1 0 100%;
+  float: right;
+}
+ul {
+  display: flex;
+  flex-direction: column;
 }
